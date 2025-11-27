@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <title>可領養動物</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="index.html" class="nav__link">首頁</a>
+        <a href="animals.html" class="nav__link">可領養動物</a>
+        <a href="adopt.html" class="nav__link">我要領養</a>
+        <a href="contact.html" class="nav__link">聯絡我們</a>
+    </nav>
+
+    <div class="container">
+        <h1>🐾 可領養的毛孩們</h1>
+        <p style="text-align:center;">看看牠們的笑容，也許有一隻正等著你 💕</p>
+
+        <div class="gallery">
+            <!-- 柴犬小福 -->
+            <div class="animal-card">
+                <img src="images/下載 (1).webp" alt="柴犬小福" class="animal-img"
+                    onclick="document.getElementById('info1').showModal()">
+                <p>🐶 柴犬小福</p>
+            </div>
+
+            <dialog id="info1" class="animal-dialog">
+                <h2>🐶 柴犬小福</h2>
+                <img src="images/下載 (1).webp" alt="柴犬小福" class="dialog-img">
+                <p>年齡：約 2 歲<br>個性：活潑、喜歡曬太陽 ☀️<br>健康狀況：已結紮，定期施打疫苗</p>
+                <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+            </dialog>
+
+            <!-- 拉布拉多多多 -->
+            <div class="animal-card">
+                <img src="images/OIP (1).webp" alt="拉布拉多多多" class="animal-img"
+                    onclick="document.getElementById('info2').showModal()">
+                <p>🐾 拉布拉多多多</p>
+            </div>
+
+            <dialog id="info2" class="animal-dialog">
+                <h2>🐾 拉布拉多多多</h2>
+                <img src="images/OIP (1).webp" alt="拉布拉多多多" class="dialog-img">
+                <p>年齡：約 3 歲<br>個性：忠誠、有點害羞 🐕🦺<br>健康狀況：已接種疫苗</p>
+                <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+            </dialog>
+
+            <!-- 美短拉拉 -->
+            <div class="animal-card">
+                <img src="images/OIP (2).webp" alt="美短拉拉" class="animal-img"
+                    onclick="document.getElementById('info3').showModal()">
+                <p>🐱 美短拉拉</p>
+            </div>
+
+            <dialog id="info3" class="animal-dialog">
+                <h2>🐱 美短拉拉</h2>
+                <img src="images/OIP (2).webp" alt="美短拉拉" class="dialog-img">
+                <p>年齡：約 1 歲<br>個性：親人、喜歡貓條 🐱💕<br>健康狀況：已接種疫苗</p>
+                <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+            </dialog>
+
+            <!-- 虎斑大斑 -->
+            <div class="animal-card">
+                <img src="images/OIP (3).webp" alt="虎斑大斑" class="animal-img"
+                    onclick="document.getElementById('info4').showModal()">
+                <p>🐈‍⬛ 虎斑大斑</p>
+            </div>
+
+            <dialog id="info4" class="animal-dialog">
+                <h2>🐈‍⬛ 虎斑大斑</h2>
+                <img src="images/OIP (3).webp" alt="虎斑大斑" class="dialog-img">
+                <p>年齡：約 1 歲<br>個性：親人、喜歡被拍屁屁 🐈‍⬛💕<br>健康狀況：已接種疫苗</p>
+                <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+            </dialog>
+
+            <!-- 天竺鼠小米 -->
+            <div class="animal-card">
+                <img src="images/OIP (4).webp" alt="天竺鼠小米" class="animal-img"
+                    onclick="document.getElementById('info5').showModal()">
+                <p>🐹 天竺鼠小米</p>
+            </div>
+
+            <dialog id="info5" class="animal-dialog">
+                <h2>🐹 天竺鼠小米</h2>
+                <img src="images/OIP (4).webp" alt="天竺鼠小米" class="dialog-img">
+                <p>年齡：約 1 歲<br>個性：害羞、喜歡葵瓜子 🐹🌰<br>健康狀況：已驅蟲</p>
+                <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+            </dialog>
+
+            <!-- 鸚鵡阿飛 -->
+            <div class="animal-card">
+                <img src="images/下載 (2).webp" alt="鸚鵡阿飛" class="animal-img"
+                    onclick="document.getElementById('info6').showModal()">
+                <p>🐦 鸚鵡阿飛</p>
+            </div>
+
+            <dialog id="info6" class="animal-dialog">
+                <h2>🐦 鸚鵡阿飛</h2>
+                <img src="images/下載 (2).webp" alt="鸚鵡阿飛" class="dialog-img">
+                <p>年齡：約 3 歲<br>個性：愛講話 🐦<br>健康狀況：良好</p>
+                <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+            </dialog>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 幸福毛孩領養園地 | 傳遞愛，從領養開始 🐾
+    </footer>
+</body>
+
+</html>
